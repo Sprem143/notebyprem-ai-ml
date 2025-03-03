@@ -1,0 +1,88 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+ margin: 10px 0;
+ padding: 0 !important;
+}
+
+.container {
+  max-width: 100% !important;
+}
+
+
+/* ------------navbar css */
+.navbar {
+  position: fixed !important;
+  width: 100%;
+  background-color: rgb(28, 28, 103) !important;
+
+  a {
+    color: white;
+    font-size: 1.2rem111;
+  }
+}
+
+.pt {
+  width: 100%;
+  height: 50px !important;
+}
+
+.dropdown-menu a {
+  color: black !important;
+}
+
+.sld-container {
+  width: 100% !important;
+  overflow: hidden;
+  padding: 0 2vw !important;
+  box-shadow: 0 0 8px 5px rgb(209, 209, 209);
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: rgb(28, 28, 103) !important
+}
+
+.pt2 {
+  height: 56px !important;
+  width: 100%;
+}
+
+.band {
+  height: auto;
+  width: 100%;
+  background-color: rgb(28, 28, 103);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding-top: 9px;
+}
+
+.fixbtn{
+  height: 60px;
+  width: 60px;
+  border: 2px solid black;
+  border-radius: 50%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+  margin: auto;
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+}
+.content{
+  padding:2vw 4vw;
+}
+.boldtext{
+  color: rgb(0, 21, 255);
+}
+.dfjcac{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
