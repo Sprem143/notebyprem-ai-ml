@@ -73,9 +73,6 @@ export default function Slider1() {
         <div className='dfjcac d-flex'>
         <Link to="/class07">Class 07</Link>
         </div>
-        <div className='dfjcac d-flex'>
-        <Link to="/class08">Class 08</Link>
-        </div>
       </Slider>
           </div>
         </>
