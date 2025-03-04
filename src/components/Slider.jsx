@@ -49,31 +49,32 @@ export default function Slider1() {
          <div className="pt2"></div>
           <div className="sld-container" style={{ width:'97%'}}>
           <Slider {...settings} >
-        <div className='dfjcac'>
-         <b className='text-center'>
+        <div className='dfjcac d-flex'>   
           <Link to="/class01">Class 01</Link>
-         </b>
         </div>
-        <div className='dfjcac'>
-        <b className='text-center'>class 2</b>
+        <div className='dfjcac d-flex'>
+        <Link to="/class02">Class 02</Link>
         </div>
-        <div className='dfjcac'>
-        <b className='text-center'>class 3</b>
+        <div className='dfjcac d-flex'>
+        <Link to="/class03">Class 03</Link>
         </div>
-        <div className='dfjcac'>
-        <b className='text-center'>class 4</b>
+        <div className='dfjcac d-flex'>
+        <Link to="/class04">Class 04</Link>
         </div>
-        <div className='dfjcac'>
-        <b className='text-center'>class 5</b>
+        <div className='dfjcac d-flex'>
+        <Link to="/class05">Class 05</Link>
         </div>
-        <div className='dfjcac'>
-        <b className='text-center'>class 6</b>
+        <div className='dfjcac d-flex'>
+        <Link to="/class05">Class 05</Link>
         </div>
-        <div className='dfjcac'>
-        <b className='text-center'>class 7</b>
+        <div className='dfjcac d-flex'>
+        <Link to="/class06">Class 06</Link>
         </div>
-        <div className='dfjcac'>
-        <b className='text-center'>class 8</b>
+        <div className='dfjcac d-flex'>
+        <Link to="/class07">Class 07</Link>
+        </div>
+        <div className='dfjcac d-flex'>
+        <Link to="/class08">Class 08</Link>
         </div>
       </Slider>
           </div>

@@ -34,7 +34,7 @@ export default function Class01() {
       </Modal>
 
       <div className="fixbtn" onClick={handleShow}>
-        <button style={{ border: 'none' }}>Topic</button>
+        <button style={{ border: 'none', background:'transparent' }} className="fw-bolder">Topic</button>
       </div>
 
       {/* ------class content------ */}

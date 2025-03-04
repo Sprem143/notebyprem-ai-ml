@@ -50,8 +50,8 @@ export default function Header() {
         <>
             <Navbar expand="lg" className='navbar d-flex flex-column'>
                 <Container fluid>
-                    <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
-                    <Navbar.Toggle aria-controls="navbarScroll" />
+                    <Navbar.Brand href="/" className='text-white fw-bolder'><img src="/static/images/logo.jpg" alt="" height='40' style={{width:'40px'}} className='rounded-circle' /> Note book</Navbar.Brand>
+                    <Navbar.Toggle aria-controls="navbarScroll" className='bg-white' />
                     <Navbar.Collapse id="navbarScroll">
                         <Nav
                             className="ms-auto my-2 my-lg-0"
