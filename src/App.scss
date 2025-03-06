@@ -98,3 +98,18 @@ h5 {
   text-decoration: none !important;
   color: rgb(5, 0, 91) !important;
  }
+ .line{
+  height: 3px;
+  width: 200px;
+  background-color: red;
+ }
+
+ .code{
+   width: 60%;
+   margin: 10px 0;
+ }
+ @media screen and (max-width:'760px') {
+  .code{
+    width: 100%;
+  }
+ }

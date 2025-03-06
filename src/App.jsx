@@ -13,7 +13,7 @@ function App() {
   return (
    <>
    {/* <div className="pt"></div> */}
-   <div className="container-fluid">
+   <div className="container ps-0 pe-0">
     <img src="/static/images/iitpatna.jpg" alt="" width='100%' />
    </div>
    </>
